@@ -4,7 +4,9 @@ Wearable safety-alert prototype developed for the 2025-2 Global CDP
 Thailand-Korea program. The device measures pulse and skin temperature,
 acquires GNSS coordinates, and sends an emergency SMS over LTE-M.
 
-![Modular housing CAD](media/cad/260805_chain_housing_cad_isometric.png)
+![Final modular housing print layout](media/cad/260810_final_print_plate_layout.png)
+
+Latest housing revision prepared for printing on 2026-08-10.
 
 ## Prototype Hardware
 
