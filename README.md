@@ -52,9 +52,12 @@ share ground.
 - `docs/`: dated bring-up, integration, power, and module-selection records
 - `media/cad/`: selected enclosure renders for quick review
 
+The redacted first-purchase request and supporting quotations are available at
+[`docs/260812_GCDP_team5_procurement_request_public.pdf`](docs/260812_GCDP_team5_procurement_request_public.pdf).
+
 Third-party datasheets, downloaded CAD models, raw presentation media,
-procurement files, personal identifiers, and generated build caches are not
-tracked in this repository.
+original procurement files, personal identifiers, and generated build caches
+are not tracked in this repository.
 
 ## Build and Upload
 
