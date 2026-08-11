@@ -1,0 +1,8506 @@
+{
+  "document": "GCDP design 1 v6",
+  "design_type": "1",
+  "root_component": "GCDP design 1 v6",
+  "body_count": 19,
+  "bodies": [
+    {
+      "index": 0,
+      "name": "hinge_11",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": -0.5,
+        "y": -0.0,
+        "z": 12.500001
+      },
+      "bbox_max_mm": {
+        "x": 8.5,
+        "y": 4.0,
+        "z": 17.500001
+      },
+      "bbox_size_mm": {
+        "x": 9.0,
+        "y": 4.0,
+        "z": 5.0
+      },
+      "volume_mm3": 131.415934,
+      "face_count": 8,
+      "edge_count": 16,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": -0.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 8.5,
+            "y": 4.0,
+            "z": 12.500001
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 8.0,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": -0.5,
+            "y": -0.0,
+            "z": 17.500001
+          },
+          "bbox_max_mm": {
+            "x": 8.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": 17.500001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 25.000002,
+          "bbox_min_mm": {
+            "x": 1.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 6.5,
+            "y": -0.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 4.0,
+            "y": -0.0,
+            "z": 15.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 31.41593,
+          "bbox_min_mm": {
+            "x": 0.5,
+            "y": 1.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 2.5,
+            "y": 3.0,
+            "z": 17.500001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 4,
+          "area_mm2": 31.41593,
+          "bbox_min_mm": {
+            "x": 5.5,
+            "y": 1.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 7.5,
+            "y": 3.0,
+            "z": 17.500001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 5,
+          "area_mm2": 31.415929,
+          "bbox_min_mm": {
+            "x": -0.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 1.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 6,
+          "area_mm2": 31.415929,
+          "bbox_min_mm": {
+            "x": 6.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 8.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 7,
+          "area_mm2": 25.000002,
+          "bbox_min_mm": {
+            "x": 1.5,
+            "y": 4.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 6.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 9.0,
+            "y": 4.0,
+            "z": 36.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "name": "hinge_9",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": -0.5,
+        "y": -0.0,
+        "z": 2.5
+      },
+      "bbox_max_mm": {
+        "x": 8.5,
+        "y": 4.0,
+        "z": 7.5
+      },
+      "bbox_size_mm": {
+        "x": 9.0,
+        "y": 4.0,
+        "z": 5.0
+      },
+      "volume_mm3": 131.415923,
+      "face_count": 8,
+      "edge_count": 16,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": -0.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 8.5,
+            "y": 4.0,
+            "z": 2.5
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 8.0,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": -0.5,
+            "y": -0.0,
+            "z": 7.5
+          },
+          "bbox_max_mm": {
+            "x": 8.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": 7.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 25.0,
+          "bbox_min_mm": {
+            "x": 1.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 6.5,
+            "y": -0.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 4.0,
+            "y": -0.0,
+            "z": 5.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 31.415927,
+          "bbox_min_mm": {
+            "x": 0.5,
+            "y": 1.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 2.5,
+            "y": 3.0,
+            "z": 7.5
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 4,
+          "area_mm2": 31.415927,
+          "bbox_min_mm": {
+            "x": 5.5,
+            "y": 1.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 7.5,
+            "y": 3.0,
+            "z": 7.5
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 5,
+          "area_mm2": 31.415926,
+          "bbox_min_mm": {
+            "x": 6.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 8.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 6,
+          "area_mm2": 31.415926,
+          "bbox_min_mm": {
+            "x": -0.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 1.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 7,
+          "area_mm2": 25.0,
+          "bbox_min_mm": {
+            "x": 1.5,
+            "y": 4.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 6.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 9.0,
+            "y": 4.0,
+            "z": 36.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 2,
+      "name": "hinge_8",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 42.5,
+        "y": -0.0,
+        "z": 2.5
+      },
+      "bbox_max_mm": {
+        "x": 51.5,
+        "y": 4.0,
+        "z": 7.5
+      },
+      "bbox_size_mm": {
+        "x": 9.0,
+        "y": 4.0,
+        "z": 5.0
+      },
+      "volume_mm3": 131.415923,
+      "face_count": 8,
+      "edge_count": 16,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 42.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 51.5,
+            "y": 4.0,
+            "z": 2.5
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 51.0,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 42.5,
+            "y": -0.0,
+            "z": 7.5
+          },
+          "bbox_max_mm": {
+            "x": 51.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 43.0,
+            "y": -0.0,
+            "z": 7.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 25.0,
+          "bbox_min_mm": {
+            "x": 44.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 49.5,
+            "y": -0.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 47.0,
+            "y": -0.0,
+            "z": 5.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 31.415927,
+          "bbox_min_mm": {
+            "x": 43.5,
+            "y": 1.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 45.5,
+            "y": 3.0,
+            "z": 7.5
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 4,
+          "area_mm2": 31.415927,
+          "bbox_min_mm": {
+            "x": 48.5,
+            "y": 1.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 50.5,
+            "y": 3.0,
+            "z": 7.5
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 5,
+          "area_mm2": 31.415926,
+          "bbox_min_mm": {
+            "x": 49.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 51.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 6,
+          "area_mm2": 31.415926,
+          "bbox_min_mm": {
+            "x": 42.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 44.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 7,
+          "area_mm2": 25.0,
+          "bbox_min_mm": {
+            "x": 44.5,
+            "y": 4.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 49.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 52.0,
+            "y": 4.0,
+            "z": 36.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "name": "hinge_6",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 42.5,
+        "y": -0.0,
+        "z": 12.500001
+      },
+      "bbox_max_mm": {
+        "x": 51.5,
+        "y": 4.0,
+        "z": 17.500001
+      },
+      "bbox_size_mm": {
+        "x": 9.0,
+        "y": 4.0,
+        "z": 5.0
+      },
+      "volume_mm3": 131.415934,
+      "face_count": 8,
+      "edge_count": 16,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 42.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 51.5,
+            "y": 4.0,
+            "z": 12.500001
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 51.0,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 42.5,
+            "y": -0.0,
+            "z": 17.500001
+          },
+          "bbox_max_mm": {
+            "x": 51.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 43.0,
+            "y": -0.0,
+            "z": 17.500001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 25.000002,
+          "bbox_min_mm": {
+            "x": 44.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 49.5,
+            "y": -0.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 47.0,
+            "y": -0.0,
+            "z": 15.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 31.41593,
+          "bbox_min_mm": {
+            "x": 43.5,
+            "y": 1.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 45.5,
+            "y": 3.0,
+            "z": 17.500001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 4,
+          "area_mm2": 31.41593,
+          "bbox_min_mm": {
+            "x": 48.5,
+            "y": 1.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 50.5,
+            "y": 3.0,
+            "z": 17.500001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 5,
+          "area_mm2": 31.415929,
+          "bbox_min_mm": {
+            "x": 42.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 44.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 6,
+          "area_mm2": 31.415929,
+          "bbox_min_mm": {
+            "x": 49.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 51.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 7,
+          "area_mm2": 25.000002,
+          "bbox_min_mm": {
+            "x": 44.5,
+            "y": 4.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 49.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 52.0,
+            "y": 4.0,
+            "z": 36.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 4,
+      "name": "hinge_4",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 145.5,
+        "y": -0.0,
+        "z": 2.5
+      },
+      "bbox_max_mm": {
+        "x": 154.5,
+        "y": 4.0,
+        "z": 7.5
+      },
+      "bbox_size_mm": {
+        "x": 9.0,
+        "y": 4.0,
+        "z": 5.0
+      },
+      "volume_mm3": 131.415923,
+      "face_count": 8,
+      "edge_count": 16,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 145.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 154.5,
+            "y": 4.0,
+            "z": 2.5
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 154.0,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 145.5,
+            "y": -0.0,
+            "z": 7.5
+          },
+          "bbox_max_mm": {
+            "x": 154.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 146.0,
+            "y": -0.0,
+            "z": 7.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 25.0,
+          "bbox_min_mm": {
+            "x": 147.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 152.5,
+            "y": -0.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 150.0,
+            "y": -0.0,
+            "z": 5.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 31.415927,
+          "bbox_min_mm": {
+            "x": 146.5,
+            "y": 1.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 148.5,
+            "y": 3.0,
+            "z": 7.5
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 4,
+          "area_mm2": 31.415927,
+          "bbox_min_mm": {
+            "x": 151.5,
+            "y": 1.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 153.5,
+            "y": 3.0,
+            "z": 7.5
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 5,
+          "area_mm2": 31.415926,
+          "bbox_min_mm": {
+            "x": 152.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 154.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 6,
+          "area_mm2": 31.415926,
+          "bbox_min_mm": {
+            "x": 145.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 147.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 7,
+          "area_mm2": 25.0,
+          "bbox_min_mm": {
+            "x": 147.5,
+            "y": 4.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 152.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 155.0,
+            "y": 4.0,
+            "z": 36.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "name": "hinge_3",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": -36.499999,
+        "y": 0.0,
+        "z": -2.0
+      },
+      "bbox_max_mm": {
+        "x": 3.500001,
+        "y": 14.0,
+        "z": 22.0
+      },
+      "bbox_size_mm": {
+        "x": 40.0,
+        "y": 14.0,
+        "z": 24.0
+      },
+      "volume_mm3": 4080.398206,
+      "face_count": 47,
+      "edge_count": 129,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 11.141595,
+          "bbox_min_mm": {
+            "x": -0.5,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "bbox_max_mm": {
+            "x": 3.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 8.5,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 11.141595,
+          "bbox_min_mm": {
+            "x": -0.5,
+            "y": -0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 3.500001,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -0.5,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 8.000004,
+          "bbox_min_mm": {
+            "x": -0.5,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 1.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 1.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 8.0,
+          "bbox_min_mm": {
+            "x": -0.5,
+            "y": 4.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 1.500001,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 1.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 4,
+          "area_mm2": 8.000003,
+          "bbox_min_mm": {
+            "x": -0.5,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 1.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 1.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 5,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 0.500001,
+            "y": 1.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 2.500001,
+            "y": 3.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 6,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 0.500001,
+            "y": 1.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 2.500001,
+            "y": 3.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 7,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 0.500001,
+            "y": 1.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 2.500001,
+            "y": 3.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 8,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 1.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 3.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 9,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 1.500001,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 3.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 10,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 1.500001,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 3.500001,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 11,
+          "area_mm2": 11.141595,
+          "bbox_min_mm": {
+            "x": -0.5,
+            "y": 0.0,
+            "z": 12.000001
+          },
+          "bbox_max_mm": {
+            "x": 3.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 8.5,
+            "y": 0.0,
+            "z": 12.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 12,
+          "area_mm2": 11.141595,
+          "bbox_min_mm": {
+            "x": -0.5,
+            "y": -0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 3.500001,
+            "y": 4.0,
+            "z": 18.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -0.5,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 13,
+          "area_mm2": 816.000002,
+          "bbox_min_mm": {
+            "x": -34.499999,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 1.500001,
+            "y": 0.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -34.499999,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.0
+          }
+        },
+        {
+          "index": 14,
+          "area_mm2": 287.999997,
+          "bbox_min_mm": {
+            "x": -32.5,
+            "y": -0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": -32.5,
+            "y": 14.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -32.5,
+            "y": -0.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 15,
+          "area_mm2": 99.0,
+          "bbox_min_mm": {
+            "x": -31.5,
+            "y": 3.0,
+            "z": 9.0
+          },
+          "bbox_max_mm": {
+            "x": -31.5,
+            "y": 14.0,
+            "z": 18.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -31.5,
+            "y": 14.0,
+            "z": 18.0
+          },
+          "plane_normal": {
+            "x": -1.0,
+            "y": -0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 16,
+          "area_mm2": 11.0,
+          "bbox_min_mm": {
+            "x": -31.5,
+            "y": 3.0,
+            "z": 18.0
+          },
+          "bbox_max_mm": {
+            "x": -30.5,
+            "y": 14.0,
+            "z": 18.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -30.5,
+            "y": 14.0,
+            "z": 18.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 17,
+          "area_mm2": 11.0,
+          "bbox_min_mm": {
+            "x": -31.5,
+            "y": 3.0,
+            "z": 9.0
+          },
+          "bbox_max_mm": {
+            "x": -30.5,
+            "y": 14.0,
+            "z": 9.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -31.5,
+            "y": 14.0,
+            "z": 9.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 18,
+          "area_mm2": 9.0,
+          "bbox_min_mm": {
+            "x": -31.5,
+            "y": 3.0,
+            "z": 9.0
+          },
+          "bbox_max_mm": {
+            "x": -30.5,
+            "y": 3.0,
+            "z": 18.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -31.0,
+            "y": 3.0,
+            "z": 13.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 19,
+          "area_mm2": 149.0,
+          "bbox_min_mm": {
+            "x": -30.5,
+            "y": 2.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": -30.5,
+            "y": 14.0,
+            "z": 20.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -30.5,
+            "y": 14.0,
+            "z": 20.0
+          },
+          "plane_normal": {
+            "x": -1.0,
+            "y": -0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 20,
+          "area_mm2": 8.0,
+          "bbox_min_mm": {
+            "x": -2.5,
+            "y": 9.0,
+            "z": 15.0
+          },
+          "bbox_max_mm": {
+            "x": -0.5,
+            "y": 13.0,
+            "z": 15.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -0.5,
+            "y": 9.0,
+            "z": 15.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 21,
+          "area_mm2": 19.999999,
+          "bbox_min_mm": {
+            "x": -2.5,
+            "y": 9.0,
+            "z": 5.0
+          },
+          "bbox_max_mm": {
+            "x": -0.5,
+            "y": 9.0,
+            "z": 15.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -0.5,
+            "y": 9.0,
+            "z": 5.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 22,
+          "area_mm2": 8.0,
+          "bbox_min_mm": {
+            "x": -2.5,
+            "y": 9.0,
+            "z": 5.0
+          },
+          "bbox_max_mm": {
+            "x": -0.5,
+            "y": 13.0,
+            "z": 5.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -0.5,
+            "y": 13.0,
+            "z": 5.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 23,
+          "area_mm2": 19.999999,
+          "bbox_min_mm": {
+            "x": -2.5,
+            "y": 13.0,
+            "z": 5.0
+          },
+          "bbox_max_mm": {
+            "x": -0.5,
+            "y": 13.0,
+            "z": 15.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -0.5,
+            "y": 13.0,
+            "z": 15.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 24,
+          "area_mm2": 10.0,
+          "bbox_min_mm": {
+            "x": -30.5,
+            "y": 6.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": -25.5,
+            "y": 6.0,
+            "z": 0.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -25.5,
+            "y": 6.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 25,
+          "area_mm2": 8.0,
+          "bbox_min_mm": {
+            "x": -25.5,
+            "y": 2.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": -25.5,
+            "y": 6.0,
+            "z": 0.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -25.5,
+            "y": 2.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 26,
+          "area_mm2": 316.0,
+          "bbox_min_mm": {
+            "x": -30.5,
+            "y": 2.0,
+            "z": 0.0
+          },
+          "bbox_max_mm": {
+            "x": -2.5,
+            "y": 14.0,
+            "z": 0.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -30.5,
+            "y": 14.0,
+            "z": 0.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 27,
+          "area_mm2": 200.0,
+          "bbox_min_mm": {
+            "x": -2.5,
+            "y": 2.0,
+            "z": 0.0
+          },
+          "bbox_max_mm": {
+            "x": -2.5,
+            "y": 14.0,
+            "z": 20.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -2.5,
+            "y": 14.0,
+            "z": 0.0
+          },
+          "plane_normal": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 28,
+          "area_mm2": 336.0,
+          "bbox_min_mm": {
+            "x": -30.5,
+            "y": 2.0,
+            "z": 20.0
+          },
+          "bbox_max_mm": {
+            "x": -2.5,
+            "y": 14.0,
+            "z": 20.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -2.5,
+            "y": 14.0,
+            "z": 20.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 29,
+          "area_mm2": 570.000001,
+          "bbox_min_mm": {
+            "x": -30.5,
+            "y": 2.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": -2.5,
+            "y": 2.0,
+            "z": 20.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -16.5,
+            "y": 2.0,
+            "z": 10.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 30,
+          "area_mm2": 248.0,
+          "bbox_min_mm": {
+            "x": -0.5,
+            "y": -0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": -0.5,
+            "y": 14.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -0.5,
+            "y": -0.0,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 31,
+          "area_mm2": 199.0,
+          "bbox_min_mm": {
+            "x": -32.5,
+            "y": 14.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": -0.5,
+            "y": 14.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -16.5,
+            "y": 14.0,
+            "z": 10.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 32,
+          "area_mm2": 450.283185,
+          "bbox_min_mm": {
+            "x": -36.499999,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 3.500001,
+            "y": 14.0,
+            "z": -2.0
+          },
+          "loop_count": 4,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -42.499999,
+            "y": 2.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 33,
+          "area_mm2": 11.14159,
+          "bbox_min_mm": {
+            "x": -36.499999,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": -32.5,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -41.5,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 34,
+          "area_mm2": 7.999997,
+          "bbox_min_mm": {
+            "x": -34.499999,
+            "y": 4.0,
+            "z": 18.0
+          },
+          "bbox_max_mm": {
+            "x": -32.5,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -26.499999,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 35,
+          "area_mm2": 8.0,
+          "bbox_min_mm": {
+            "x": -34.499999,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": -32.5,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -26.499999,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 36,
+          "area_mm2": 7.999998,
+          "bbox_min_mm": {
+            "x": -34.499999,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": -32.5,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -26.499999,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 37,
+          "area_mm2": 11.14159,
+          "bbox_min_mm": {
+            "x": -36.499999,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": -32.5,
+            "y": 4.0,
+            "z": 18.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -41.5,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 38,
+          "area_mm2": 470.283185,
+          "bbox_min_mm": {
+            "x": -36.499999,
+            "y": 0.0,
+            "z": 22.0
+          },
+          "bbox_max_mm": {
+            "x": 3.500001,
+            "y": 14.0,
+            "z": 22.0
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -31.499999,
+            "y": 2.0,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 39,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": -35.499999,
+            "y": 1.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": -33.499999,
+            "y": 3.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 40,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": -35.499999,
+            "y": 1.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": -33.499999,
+            "y": 3.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 41,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": -35.499999,
+            "y": 1.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": -33.499999,
+            "y": 3.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 42,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": -36.499999,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": -34.499999,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 43,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": -36.499999,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": -34.499999,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 44,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": -36.499999,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": -34.499999,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 45,
+          "area_mm2": 11.14159,
+          "bbox_min_mm": {
+            "x": -36.499999,
+            "y": -0.0,
+            "z": 12.000001
+          },
+          "bbox_max_mm": {
+            "x": -32.5,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -32.5,
+            "y": 0.0,
+            "z": 12.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 46,
+          "area_mm2": 11.14159,
+          "bbox_min_mm": {
+            "x": -36.499999,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "bbox_max_mm": {
+            "x": -32.5,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -32.5,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "name": "hinge_2",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 145.5,
+        "y": -0.0,
+        "z": 12.500001
+      },
+      "bbox_max_mm": {
+        "x": 154.5,
+        "y": 4.0,
+        "z": 17.500001
+      },
+      "bbox_size_mm": {
+        "x": 9.0,
+        "y": 4.0,
+        "z": 5.0
+      },
+      "volume_mm3": 131.415934,
+      "face_count": 8,
+      "edge_count": 16,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 145.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 154.5,
+            "y": 4.0,
+            "z": 12.500001
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 154.0,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 145.5,
+            "y": -0.0,
+            "z": 17.500001
+          },
+          "bbox_max_mm": {
+            "x": 154.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 146.0,
+            "y": -0.0,
+            "z": 17.500001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 25.000002,
+          "bbox_min_mm": {
+            "x": 147.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 152.5,
+            "y": -0.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 150.0,
+            "y": -0.0,
+            "z": 15.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 31.41593,
+          "bbox_min_mm": {
+            "x": 146.5,
+            "y": 1.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 148.5,
+            "y": 3.0,
+            "z": 17.500001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 4,
+          "area_mm2": 31.41593,
+          "bbox_min_mm": {
+            "x": 151.5,
+            "y": 1.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 153.5,
+            "y": 3.0,
+            "z": 17.500001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 5,
+          "area_mm2": 31.415929,
+          "bbox_min_mm": {
+            "x": 145.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 147.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 6,
+          "area_mm2": 31.415929,
+          "bbox_min_mm": {
+            "x": 152.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 154.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 7,
+          "area_mm2": 25.000002,
+          "bbox_min_mm": {
+            "x": 147.5,
+            "y": 4.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 152.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 155.0,
+            "y": 4.0,
+            "z": 36.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 7,
+      "name": "LTE ",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 4.500001,
+        "y": 0.0,
+        "z": -2.0
+      },
+      "bbox_max_mm": {
+        "x": 46.500001,
+        "y": 7.0,
+        "z": 22.0
+      },
+      "bbox_size_mm": {
+        "x": 42.0,
+        "y": 7.0,
+        "z": 24.0
+      },
+      "volume_mm3": 2979.398115,
+      "face_count": 37,
+      "edge_count": 96,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 11.141593,
+          "bbox_min_mm": {
+            "x": 42.500001,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "bbox_max_mm": {
+            "x": 46.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 51.5,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 11.141593,
+          "bbox_min_mm": {
+            "x": 42.500001,
+            "y": -0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 46.500001,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 42.5,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 8.000003,
+          "bbox_min_mm": {
+            "x": 42.500001,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 44.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 44.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 7.999999,
+          "bbox_min_mm": {
+            "x": 42.500001,
+            "y": 4.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 44.500001,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 44.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 4,
+          "area_mm2": 8.000001,
+          "bbox_min_mm": {
+            "x": 42.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 44.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 44.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 5,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 43.500001,
+            "y": 1.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 45.500001,
+            "y": 3.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 6,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 43.500001,
+            "y": 1.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 45.500001,
+            "y": 3.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 7,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 43.500001,
+            "y": 1.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 45.500001,
+            "y": 3.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 8,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 44.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 46.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 9,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 44.500001,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 46.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 10,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 44.500001,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 46.500001,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 11,
+          "area_mm2": 11.141593,
+          "bbox_min_mm": {
+            "x": 42.500001,
+            "y": 0.0,
+            "z": 12.000001
+          },
+          "bbox_max_mm": {
+            "x": 46.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 51.5,
+            "y": 0.0,
+            "z": 12.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 12,
+          "area_mm2": 11.141593,
+          "bbox_min_mm": {
+            "x": 42.500001,
+            "y": -0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 46.500001,
+            "y": 4.0,
+            "z": 18.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 42.5,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 13,
+          "area_mm2": 864.000002,
+          "bbox_min_mm": {
+            "x": 6.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 44.500001,
+            "y": 0.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 25.500001,
+            "y": 0.0,
+            "z": 10.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 14,
+          "area_mm2": 11.141592,
+          "bbox_min_mm": {
+            "x": 4.500001,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 8.500001,
+            "y": 4.0,
+            "z": 18.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -0.5,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 15,
+          "area_mm2": 8.000001,
+          "bbox_min_mm": {
+            "x": 6.500001,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 8.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 14.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 16,
+          "area_mm2": 7.999999,
+          "bbox_min_mm": {
+            "x": 6.500001,
+            "y": 4.0,
+            "z": 18.0
+          },
+          "bbox_max_mm": {
+            "x": 8.500001,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 14.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 17,
+          "area_mm2": 11.141592,
+          "bbox_min_mm": {
+            "x": 4.500001,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 8.500001,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": -0.5,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 18,
+          "area_mm2": 7.999999,
+          "bbox_min_mm": {
+            "x": 6.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 8.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 14.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 19,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 5.500001,
+            "y": 1.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 7.500001,
+            "y": 3.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 20,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 5.500001,
+            "y": 1.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 7.500001,
+            "y": 3.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 21,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 5.500001,
+            "y": 1.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 7.500001,
+            "y": 3.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 22,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 4.500001,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 6.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 23,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 4.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 6.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 24,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 4.500001,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 6.500001,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 25,
+          "area_mm2": 11.141592,
+          "bbox_min_mm": {
+            "x": 4.500001,
+            "y": -0.0,
+            "z": 12.000001
+          },
+          "bbox_max_mm": {
+            "x": 8.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 8.5,
+            "y": 0.0,
+            "z": 12.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 26,
+          "area_mm2": 11.141592,
+          "bbox_min_mm": {
+            "x": 4.500001,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "bbox_max_mm": {
+            "x": 8.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 8.5,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 27,
+          "area_mm2": 260.283185,
+          "bbox_min_mm": {
+            "x": 4.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 46.500001,
+            "y": 7.0,
+            "z": -2.0
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 42.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 28,
+          "area_mm2": 119.999997,
+          "bbox_min_mm": {
+            "x": 8.500001,
+            "y": -0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 8.500001,
+            "y": 7.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 8.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 29,
+          "area_mm2": 100.000001,
+          "bbox_min_mm": {
+            "x": 40.500001,
+            "y": 2.0,
+            "z": 0.0
+          },
+          "bbox_max_mm": {
+            "x": 40.500001,
+            "y": 7.0,
+            "z": 20.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 40.500001,
+            "y": 7.0,
+            "z": 0.0
+          },
+          "plane_normal": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 30,
+          "area_mm2": 150.000002,
+          "bbox_min_mm": {
+            "x": 10.500001,
+            "y": 2.0,
+            "z": 0.0
+          },
+          "bbox_max_mm": {
+            "x": 40.500001,
+            "y": 7.0,
+            "z": 0.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 10.500001,
+            "y": 7.0,
+            "z": 0.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 31,
+          "area_mm2": 100.000001,
+          "bbox_min_mm": {
+            "x": 10.500001,
+            "y": 2.0,
+            "z": 0.0
+          },
+          "bbox_max_mm": {
+            "x": 10.500001,
+            "y": 7.0,
+            "z": 20.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 10.500001,
+            "y": 7.0,
+            "z": 20.0
+          },
+          "plane_normal": {
+            "x": -1.0,
+            "y": -0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 32,
+          "area_mm2": 150.000002,
+          "bbox_min_mm": {
+            "x": 10.500001,
+            "y": 2.0,
+            "z": 20.0
+          },
+          "bbox_max_mm": {
+            "x": 40.500001,
+            "y": 7.0,
+            "z": 20.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 40.500001,
+            "y": 7.0,
+            "z": 20.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 33,
+          "area_mm2": 600.000018,
+          "bbox_min_mm": {
+            "x": 10.500001,
+            "y": 2.0,
+            "z": 0.0
+          },
+          "bbox_max_mm": {
+            "x": 40.500001,
+            "y": 2.0,
+            "z": 20.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 25.500001,
+            "y": 2.0,
+            "z": 10.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 34,
+          "area_mm2": 120.0,
+          "bbox_min_mm": {
+            "x": 42.500001,
+            "y": -0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 42.500001,
+            "y": 7.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 42.500001,
+            "y": 0.0,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 35,
+          "area_mm2": 260.283185,
+          "bbox_min_mm": {
+            "x": 4.500001,
+            "y": 0.0,
+            "z": 22.0
+          },
+          "bbox_max_mm": {
+            "x": 46.500001,
+            "y": 7.0,
+            "z": 22.0
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 8.500001,
+            "y": 0.0,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 36,
+          "area_mm2": 215.999982,
+          "bbox_min_mm": {
+            "x": 8.500001,
+            "y": 7.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 42.500001,
+            "y": 7.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 25.500001,
+            "y": 7.0,
+            "z": 10.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 8,
+      "name": "hinge_6 (1)",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 77.5,
+        "y": -0.0,
+        "z": 12.500001
+      },
+      "bbox_max_mm": {
+        "x": 86.5,
+        "y": 4.0,
+        "z": 17.500001
+      },
+      "bbox_size_mm": {
+        "x": 9.0,
+        "y": 4.0,
+        "z": 5.0
+      },
+      "volume_mm3": 131.415934,
+      "face_count": 8,
+      "edge_count": 16,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 77.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 86.5,
+            "y": 4.0,
+            "z": 12.500001
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 86.0,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 77.5,
+            "y": -0.0,
+            "z": 17.500001
+          },
+          "bbox_max_mm": {
+            "x": 86.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 78.0,
+            "y": -0.0,
+            "z": 17.500001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 25.000002,
+          "bbox_min_mm": {
+            "x": 79.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 84.5,
+            "y": -0.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 82.0,
+            "y": -0.0,
+            "z": 15.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 31.41593,
+          "bbox_min_mm": {
+            "x": 78.5,
+            "y": 1.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 80.5,
+            "y": 3.0,
+            "z": 17.500001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 4,
+          "area_mm2": 31.41593,
+          "bbox_min_mm": {
+            "x": 83.5,
+            "y": 1.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 85.5,
+            "y": 3.0,
+            "z": 17.500001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 5,
+          "area_mm2": 31.415929,
+          "bbox_min_mm": {
+            "x": 77.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 79.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 6,
+          "area_mm2": 31.415929,
+          "bbox_min_mm": {
+            "x": 84.5,
+            "y": -0.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 86.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 7,
+          "area_mm2": 25.000002,
+          "bbox_min_mm": {
+            "x": 79.5,
+            "y": 4.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 84.5,
+            "y": 4.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 87.0,
+            "y": 4.0,
+            "z": 36.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 9,
+      "name": "hinge_8 (1)",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 77.5,
+        "y": -0.0,
+        "z": 2.5
+      },
+      "bbox_max_mm": {
+        "x": 86.5,
+        "y": 4.0,
+        "z": 7.5
+      },
+      "bbox_size_mm": {
+        "x": 9.0,
+        "y": 4.0,
+        "z": 5.0
+      },
+      "volume_mm3": 131.415923,
+      "face_count": 8,
+      "edge_count": 16,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 77.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 86.5,
+            "y": 4.0,
+            "z": 2.5
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 86.0,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 77.5,
+            "y": -0.0,
+            "z": 7.5
+          },
+          "bbox_max_mm": {
+            "x": 86.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 78.0,
+            "y": -0.0,
+            "z": 7.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 25.0,
+          "bbox_min_mm": {
+            "x": 79.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 84.5,
+            "y": -0.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 82.0,
+            "y": -0.0,
+            "z": 5.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 31.415927,
+          "bbox_min_mm": {
+            "x": 78.5,
+            "y": 1.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 80.5,
+            "y": 3.0,
+            "z": 7.5
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 4,
+          "area_mm2": 31.415927,
+          "bbox_min_mm": {
+            "x": 83.5,
+            "y": 1.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 85.5,
+            "y": 3.0,
+            "z": 7.5
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 5,
+          "area_mm2": 31.415926,
+          "bbox_min_mm": {
+            "x": 84.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 86.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 6,
+          "area_mm2": 31.415926,
+          "bbox_min_mm": {
+            "x": 77.5,
+            "y": -0.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 79.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 7,
+          "area_mm2": 25.0,
+          "bbox_min_mm": {
+            "x": 79.5,
+            "y": 4.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 84.5,
+            "y": 4.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 87.0,
+            "y": 4.0,
+            "z": 36.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 10,
+      "name": "hinge_5 (1)",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 47.500001,
+        "y": 0.0,
+        "z": -2.0
+      },
+      "bbox_max_mm": {
+        "x": 81.500001,
+        "y": 6.0,
+        "z": 22.0
+      },
+      "bbox_size_mm": {
+        "x": 34.0,
+        "y": 6.0,
+        "z": 24.0
+      },
+      "volume_mm3": 2183.55824,
+      "face_count": 37,
+      "edge_count": 96,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 11.141588,
+          "bbox_min_mm": {
+            "x": 47.500001,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 51.5,
+            "y": 4.0,
+            "z": 18.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 42.5,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 7.999998,
+          "bbox_min_mm": {
+            "x": 49.500001,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 51.5,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 57.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 7.999995,
+          "bbox_min_mm": {
+            "x": 49.500001,
+            "y": 4.0,
+            "z": 18.0
+          },
+          "bbox_max_mm": {
+            "x": 51.5,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 57.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 11.141588,
+          "bbox_min_mm": {
+            "x": 47.500001,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 51.5,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 42.5,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 4,
+          "area_mm2": 7.999996,
+          "bbox_min_mm": {
+            "x": 49.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 51.5,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 57.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 5,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 48.500001,
+            "y": 1.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 50.500001,
+            "y": 3.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 6,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 48.500001,
+            "y": 1.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 50.500001,
+            "y": 3.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 7,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 48.500001,
+            "y": 1.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 50.500001,
+            "y": 3.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 8,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 47.500001,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 49.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 9,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 47.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 49.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 10,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 47.500001,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 49.500001,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 11,
+          "area_mm2": 11.141588,
+          "bbox_min_mm": {
+            "x": 47.500001,
+            "y": -0.0,
+            "z": 12.000001
+          },
+          "bbox_max_mm": {
+            "x": 51.5,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 51.5,
+            "y": 0.0,
+            "z": 12.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 12,
+          "area_mm2": 11.141588,
+          "bbox_min_mm": {
+            "x": 47.500001,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "bbox_max_mm": {
+            "x": 51.5,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 51.5,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 13,
+          "area_mm2": 178.283186,
+          "bbox_min_mm": {
+            "x": 47.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 81.500001,
+            "y": 6.0,
+            "z": -2.0
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 76.500001,
+            "y": 2.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 14,
+          "area_mm2": 95.999998,
+          "bbox_min_mm": {
+            "x": 51.5,
+            "y": -0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 51.5,
+            "y": 6.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 51.5,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 15,
+          "area_mm2": 81.600001,
+          "bbox_min_mm": {
+            "x": 75.7,
+            "y": 2.0,
+            "z": -0.2
+          },
+          "bbox_max_mm": {
+            "x": 75.7,
+            "y": 6.0,
+            "z": 20.2
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 75.7,
+            "y": 2.0,
+            "z": 0.0
+          },
+          "plane_normal": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 16,
+          "area_mm2": 167.040004,
+          "bbox_min_mm": {
+            "x": 51.5,
+            "y": 6.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 77.5,
+            "y": 6.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 64.5,
+            "y": 6.0,
+            "z": 10.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 17,
+          "area_mm2": 81.600001,
+          "bbox_min_mm": {
+            "x": 53.3,
+            "y": 2.0,
+            "z": -0.2
+          },
+          "bbox_max_mm": {
+            "x": 53.3,
+            "y": 6.0,
+            "z": 20.2
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 53.3,
+            "y": 2.0,
+            "z": 20.0
+          },
+          "plane_normal": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 18,
+          "area_mm2": 89.600001,
+          "bbox_min_mm": {
+            "x": 53.3,
+            "y": 2.0,
+            "z": -0.2
+          },
+          "bbox_max_mm": {
+            "x": 75.7,
+            "y": 6.0,
+            "z": -0.2
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 53.5,
+            "y": 2.0,
+            "z": -0.2
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 19,
+          "area_mm2": 89.600001,
+          "bbox_min_mm": {
+            "x": 53.3,
+            "y": 2.0,
+            "z": 20.2
+          },
+          "bbox_max_mm": {
+            "x": 75.7,
+            "y": 6.0,
+            "z": 20.2
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 75.5,
+            "y": 2.0,
+            "z": 20.2
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 20,
+          "area_mm2": 96.000001,
+          "bbox_min_mm": {
+            "x": 77.5,
+            "y": -0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 77.5,
+            "y": 6.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 77.5,
+            "y": 0.0,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 21,
+          "area_mm2": 456.960013,
+          "bbox_min_mm": {
+            "x": 53.3,
+            "y": 2.0,
+            "z": -0.2
+          },
+          "bbox_max_mm": {
+            "x": 75.7,
+            "y": 2.0,
+            "z": 20.2
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 64.5,
+            "y": 2.0,
+            "z": 10.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 22,
+          "area_mm2": 11.141596,
+          "bbox_min_mm": {
+            "x": 77.5,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "bbox_max_mm": {
+            "x": 81.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 86.5,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 23,
+          "area_mm2": 178.283186,
+          "bbox_min_mm": {
+            "x": 47.500001,
+            "y": 0.0,
+            "z": 22.0
+          },
+          "bbox_max_mm": {
+            "x": 81.500001,
+            "y": 6.0,
+            "z": 22.0
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 76.500001,
+            "y": 2.0,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 24,
+          "area_mm2": 8.000005,
+          "bbox_min_mm": {
+            "x": 77.5,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 79.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 79.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 25,
+          "area_mm2": 8.000001,
+          "bbox_min_mm": {
+            "x": 77.5,
+            "y": 4.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 79.500001,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 79.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 26,
+          "area_mm2": 8.000003,
+          "bbox_min_mm": {
+            "x": 77.5,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 79.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 79.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 27,
+          "area_mm2": 11.141596,
+          "bbox_min_mm": {
+            "x": 77.5,
+            "y": 0.0,
+            "z": 12.000001
+          },
+          "bbox_max_mm": {
+            "x": 81.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 86.5,
+            "y": 0.0,
+            "z": 12.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 28,
+          "area_mm2": 672.000005,
+          "bbox_min_mm": {
+            "x": 49.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 79.500001,
+            "y": 0.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 71.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.0
+          }
+        },
+        {
+          "index": 29,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 78.500001,
+            "y": 1.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 80.500001,
+            "y": 3.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 30,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 78.500001,
+            "y": 1.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 80.500001,
+            "y": 3.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 31,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 78.500001,
+            "y": 1.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 80.500001,
+            "y": 3.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 32,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 79.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 81.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 33,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 79.500001,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 81.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 34,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 79.500001,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 81.500001,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 35,
+          "area_mm2": 11.141596,
+          "bbox_min_mm": {
+            "x": 77.5,
+            "y": -0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 81.500001,
+            "y": 4.0,
+            "z": 18.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 77.5,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 36,
+          "area_mm2": 11.141596,
+          "bbox_min_mm": {
+            "x": 77.5,
+            "y": -0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 81.500001,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 77.5,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 11,
+      "name": "TMP117",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 5.0,
+        "y": 5.0,
+        "z": 5.0
+      },
+      "bbox_max_mm": {
+        "x": 5.0,
+        "y": 5.0,
+        "z": 5.0
+      },
+      "bbox_size_mm": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "volume_mm3": 0.0,
+      "face_count": 0,
+      "edge_count": 0,
+      "faces": []
+    },
+    {
+      "index": 12,
+      "name": "MAX30102",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 125.500002,
+        "y": 0.0,
+        "z": -2.0
+      },
+      "bbox_max_mm": {
+        "x": 149.500001,
+        "y": 4.6,
+        "z": 22.0
+      },
+      "bbox_size_mm": {
+        "x": 23.999999,
+        "y": 4.6,
+        "z": 24.0
+      },
+      "volume_mm3": 1445.299083,
+      "face_count": 27,
+      "edge_count": 72,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 11.141589,
+          "bbox_min_mm": {
+            "x": 145.500002,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "bbox_max_mm": {
+            "x": 149.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 154.5,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 11.141589,
+          "bbox_min_mm": {
+            "x": 145.500002,
+            "y": -0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 149.500001,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 145.5,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 7.999998,
+          "bbox_min_mm": {
+            "x": 145.500002,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 147.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 147.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 7.999994,
+          "bbox_min_mm": {
+            "x": 145.500002,
+            "y": 4.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 147.500001,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 147.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 4,
+          "area_mm2": 7.999996,
+          "bbox_min_mm": {
+            "x": 145.500002,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 147.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 147.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 5,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 146.500001,
+            "y": 1.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 148.500001,
+            "y": 3.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 6,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 146.500001,
+            "y": 1.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 148.500001,
+            "y": 3.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 7,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 146.500001,
+            "y": 1.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 148.500001,
+            "y": 3.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 8,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 147.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 149.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 9,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 147.500001,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 149.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 10,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 147.500001,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 149.500001,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 11,
+          "area_mm2": 11.141589,
+          "bbox_min_mm": {
+            "x": 145.500002,
+            "y": 0.0,
+            "z": 12.000001
+          },
+          "bbox_max_mm": {
+            "x": 149.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 154.5,
+            "y": 0.0,
+            "z": 12.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 12,
+          "area_mm2": 11.141589,
+          "bbox_min_mm": {
+            "x": 145.500002,
+            "y": -0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 149.500001,
+            "y": 4.0,
+            "z": 18.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 145.5,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 13,
+          "area_mm2": 103.141589,
+          "bbox_min_mm": {
+            "x": 125.500002,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 149.500001,
+            "y": 4.6,
+            "z": -2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.500002,
+            "y": 4.6,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 14,
+          "area_mm2": 103.141589,
+          "bbox_min_mm": {
+            "x": 125.500002,
+            "y": 0.0,
+            "z": 22.0
+          },
+          "bbox_max_mm": {
+            "x": 149.500001,
+            "y": 4.6,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 145.500002,
+            "y": 4.6,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 15,
+          "area_mm2": 197.999989,
+          "bbox_min_mm": {
+            "x": 125.500002,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 147.500001,
+            "y": 0.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 135.500002,
+            "y": 0.0,
+            "z": 10.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 16,
+          "area_mm2": 60.6,
+          "bbox_min_mm": {
+            "x": 125.500002,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 125.500002,
+            "y": 4.6,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.500002,
+            "y": 4.6,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": 1.0,
+            "y": -0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 17,
+          "area_mm2": 480.0,
+          "bbox_min_mm": {
+            "x": 125.500002,
+            "y": 4.6,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 145.500002,
+            "y": 4.6,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 135.500002,
+            "y": 4.6,
+            "z": 10.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 18,
+          "area_mm2": 21.6,
+          "bbox_min_mm": {
+            "x": 125.500002,
+            "y": 0.0,
+            "z": 18.5
+          },
+          "bbox_max_mm": {
+            "x": 143.500002,
+            "y": 1.2,
+            "z": 18.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.500002,
+            "y": 1.2,
+            "z": 18.5
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 19,
+          "area_mm2": 36.0,
+          "bbox_min_mm": {
+            "x": 125.500002,
+            "y": 1.2,
+            "z": 18.5
+          },
+          "bbox_max_mm": {
+            "x": 143.500002,
+            "y": 1.2,
+            "z": 20.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.500002,
+            "y": 1.2,
+            "z": 20.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 20,
+          "area_mm2": 21.599999,
+          "bbox_min_mm": {
+            "x": 125.500002,
+            "y": 0.0,
+            "z": 1.5
+          },
+          "bbox_max_mm": {
+            "x": 143.500002,
+            "y": 1.2,
+            "z": 1.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.500002,
+            "y": 0.0,
+            "z": 1.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 21,
+          "area_mm2": 25.2,
+          "bbox_min_mm": {
+            "x": 125.500002,
+            "y": 1.2,
+            "z": 20.5
+          },
+          "bbox_max_mm": {
+            "x": 143.500002,
+            "y": 2.6,
+            "z": 20.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.500002,
+            "y": 2.6,
+            "z": 20.5
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 22,
+          "area_mm2": 36.0,
+          "bbox_min_mm": {
+            "x": 125.500002,
+            "y": 1.2,
+            "z": -0.5
+          },
+          "bbox_max_mm": {
+            "x": 143.500002,
+            "y": 1.2,
+            "z": 1.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.500002,
+            "y": 1.2,
+            "z": 1.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 23,
+          "area_mm2": 378.0,
+          "bbox_min_mm": {
+            "x": 125.500002,
+            "y": 2.6,
+            "z": -0.5
+          },
+          "bbox_max_mm": {
+            "x": 143.500002,
+            "y": 2.6,
+            "z": 20.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.500002,
+            "y": 2.6,
+            "z": -0.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": -0.0
+          }
+        },
+        {
+          "index": 24,
+          "area_mm2": 25.2,
+          "bbox_min_mm": {
+            "x": 125.500002,
+            "y": 1.2,
+            "z": -0.5
+          },
+          "bbox_max_mm": {
+            "x": 143.500002,
+            "y": 2.6,
+            "z": -0.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.500002,
+            "y": 1.2,
+            "z": -0.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 25,
+          "area_mm2": 49.8,
+          "bbox_min_mm": {
+            "x": 143.500002,
+            "y": 0.0,
+            "z": -0.5
+          },
+          "bbox_max_mm": {
+            "x": 143.500002,
+            "y": 2.6,
+            "z": 20.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 143.500002,
+            "y": 1.3,
+            "z": 10.0
+          },
+          "plane_normal": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 26,
+          "area_mm2": 62.4,
+          "bbox_min_mm": {
+            "x": 145.500002,
+            "y": -0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 145.500002,
+            "y": 4.6,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 145.500002,
+            "y": 4.6,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 13,
+      "name": "hinge_8 (1) (1)",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 116.5,
+        "y": -6.0,
+        "z": 2.5
+      },
+      "bbox_max_mm": {
+        "x": 125.5,
+        "y": -2.0,
+        "z": 7.5
+      },
+      "bbox_size_mm": {
+        "x": 9.0,
+        "y": 4.0,
+        "z": 5.0
+      },
+      "volume_mm3": 131.415923,
+      "face_count": 8,
+      "edge_count": 16,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 116.5,
+            "y": -6.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 125.5,
+            "y": -2.0,
+            "z": 2.5
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.0,
+            "y": -6.0,
+            "z": 2.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 116.5,
+            "y": -6.0,
+            "z": 7.5
+          },
+          "bbox_max_mm": {
+            "x": 125.5,
+            "y": -2.0,
+            "z": 7.5
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 117.0,
+            "y": -6.0,
+            "z": 7.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 25.0,
+          "bbox_min_mm": {
+            "x": 118.5,
+            "y": -6.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 123.5,
+            "y": -6.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 121.0,
+            "y": -6.0,
+            "z": 5.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 31.415927,
+          "bbox_min_mm": {
+            "x": 117.5,
+            "y": -5.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 119.5,
+            "y": -3.0,
+            "z": 7.5
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 4,
+          "area_mm2": 31.415927,
+          "bbox_min_mm": {
+            "x": 122.5,
+            "y": -5.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 124.5,
+            "y": -3.0,
+            "z": 7.5
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 5,
+          "area_mm2": 31.415926,
+          "bbox_min_mm": {
+            "x": 123.5,
+            "y": -6.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 125.5,
+            "y": -2.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 6,
+          "area_mm2": 31.415926,
+          "bbox_min_mm": {
+            "x": 116.5,
+            "y": -6.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 118.5,
+            "y": -2.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 7,
+          "area_mm2": 25.0,
+          "bbox_min_mm": {
+            "x": 118.5,
+            "y": -2.0,
+            "z": 2.5
+          },
+          "bbox_max_mm": {
+            "x": 123.5,
+            "y": -2.0,
+            "z": 7.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 126.0,
+            "y": -2.0,
+            "z": 36.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 14,
+      "name": "hinge_5 (1) (1)",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 114.500002,
+        "y": -6.0,
+        "z": -2.0
+      },
+      "bbox_max_mm": {
+        "x": 120.500001,
+        "y": -2.0,
+        "z": 22.0
+      },
+      "bbox_size_mm": {
+        "x": 5.999999,
+        "y": 4.0,
+        "z": 24.0
+      },
+      "volume_mm3": 262.099238,
+      "face_count": 25,
+      "edge_count": 66,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 1.799992,
+          "bbox_min_mm": {
+            "x": 114.500002,
+            "y": -4.8,
+            "z": 19.0
+          },
+          "bbox_max_mm": {
+            "x": 115.499997,
+            "y": -3.0,
+            "z": 19.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 112.499997,
+            "y": -4.8,
+            "z": 19.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 17.99992,
+          "bbox_min_mm": {
+            "x": 114.500002,
+            "y": -3.0,
+            "z": 1.0
+          },
+          "bbox_max_mm": {
+            "x": 115.499997,
+            "y": -3.0,
+            "z": 19.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 112.499997,
+            "y": -3.0,
+            "z": 19.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 1.799992,
+          "bbox_min_mm": {
+            "x": 114.500002,
+            "y": -4.8,
+            "z": 1.0
+          },
+          "bbox_max_mm": {
+            "x": 115.499997,
+            "y": -3.0,
+            "z": 1.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 112.499997,
+            "y": -3.0,
+            "z": 1.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 3.999982,
+          "bbox_min_mm": {
+            "x": 114.500002,
+            "y": -4.8,
+            "z": 1.0
+          },
+          "bbox_max_mm": {
+            "x": 115.499997,
+            "y": -4.8,
+            "z": 5.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 112.499997,
+            "y": -4.8,
+            "z": 1.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 4,
+          "area_mm2": 1.199995,
+          "bbox_min_mm": {
+            "x": 114.500002,
+            "y": -6.0,
+            "z": 5.0
+          },
+          "bbox_max_mm": {
+            "x": 115.499997,
+            "y": -4.8,
+            "z": 5.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 112.499997,
+            "y": -4.8,
+            "z": 5.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 5,
+          "area_mm2": 3.999982,
+          "bbox_min_mm": {
+            "x": 114.500002,
+            "y": -4.8,
+            "z": 15.0
+          },
+          "bbox_max_mm": {
+            "x": 115.499997,
+            "y": -4.8,
+            "z": 19.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 112.499997,
+            "y": -4.8,
+            "z": 15.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 6,
+          "area_mm2": 1.199995,
+          "bbox_min_mm": {
+            "x": 114.500002,
+            "y": -6.0,
+            "z": 15.0
+          },
+          "bbox_max_mm": {
+            "x": 115.499997,
+            "y": -4.8,
+            "z": 15.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 112.499997,
+            "y": -6.0,
+            "z": 15.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 7,
+          "area_mm2": 51.599999,
+          "bbox_min_mm": {
+            "x": 115.499997,
+            "y": -6.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 115.499997,
+            "y": -2.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 115.499997,
+            "y": -1.0,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 8,
+          "area_mm2": 44.400001,
+          "bbox_min_mm": {
+            "x": 114.500002,
+            "y": -6.0,
+            "z": 1.0
+          },
+          "bbox_max_mm": {
+            "x": 114.500002,
+            "y": -3.0,
+            "z": 19.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 114.500002,
+            "y": -2.0,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 9,
+          "area_mm2": 55.000036,
+          "bbox_min_mm": {
+            "x": 114.500002,
+            "y": -6.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 118.500001,
+            "y": -6.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 110.500001,
+            "y": -6.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.0
+          }
+        },
+        {
+          "index": 10,
+          "area_mm2": 15.141608,
+          "bbox_min_mm": {
+            "x": 115.499997,
+            "y": -6.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 120.500001,
+            "y": -2.0,
+            "z": -2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 115.500001,
+            "y": -4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 11,
+          "area_mm2": 23.999999,
+          "bbox_min_mm": {
+            "x": 116.25,
+            "y": -6.0,
+            "z": 2.0
+          },
+          "bbox_max_mm": {
+            "x": 116.25,
+            "y": -2.0,
+            "z": 8.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 116.25,
+            "y": -2.0,
+            "z": 8.0
+          },
+          "plane_normal": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 12,
+          "area_mm2": 24.0,
+          "bbox_min_mm": {
+            "x": 116.25,
+            "y": -6.0,
+            "z": 12.000001
+          },
+          "bbox_max_mm": {
+            "x": 116.25,
+            "y": -2.0,
+            "z": 18.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 116.25,
+            "y": -2.0,
+            "z": 18.000001
+          },
+          "plane_normal": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 13,
+          "area_mm2": 45.00008,
+          "bbox_min_mm": {
+            "x": 115.499997,
+            "y": -2.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 118.500001,
+            "y": -2.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 118.500001,
+            "y": -2.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 14,
+          "area_mm2": 15.141608,
+          "bbox_min_mm": {
+            "x": 115.499997,
+            "y": -6.0,
+            "z": 22.0
+          },
+          "bbox_max_mm": {
+            "x": 120.500001,
+            "y": -2.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 115.500001,
+            "y": -4.0,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 15,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 117.500001,
+            "y": -5.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 119.500001,
+            "y": -3.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 16,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 117.500001,
+            "y": -5.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 119.500001,
+            "y": -3.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 17,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 117.500001,
+            "y": -5.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 119.500001,
+            "y": -3.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 18,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 118.500001,
+            "y": -6.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 120.500001,
+            "y": -2.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 19,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 118.500001,
+            "y": -6.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 120.500001,
+            "y": -2.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 20,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 118.500001,
+            "y": -6.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 120.500001,
+            "y": -2.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 21,
+          "area_mm2": 12.141596,
+          "bbox_min_mm": {
+            "x": 116.25,
+            "y": -6.0,
+            "z": 12.000001
+          },
+          "bbox_max_mm": {
+            "x": 120.500001,
+            "y": -2.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.5,
+            "y": -6.0,
+            "z": 12.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 22,
+          "area_mm2": 12.141596,
+          "bbox_min_mm": {
+            "x": 116.25,
+            "y": -6.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 120.500001,
+            "y": -2.0,
+            "z": 18.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 116.5,
+            "y": -6.0,
+            "z": 18.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 23,
+          "area_mm2": 12.141596,
+          "bbox_min_mm": {
+            "x": 116.25,
+            "y": -6.0,
+            "z": 2.0
+          },
+          "bbox_max_mm": {
+            "x": 120.500001,
+            "y": -2.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.5,
+            "y": -6.0,
+            "z": 2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 24,
+          "area_mm2": 12.141596,
+          "bbox_min_mm": {
+            "x": 116.25,
+            "y": -6.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 120.500001,
+            "y": -2.0,
+            "z": 8.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 116.5,
+            "y": -6.0,
+            "z": 8.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 15,
+      "name": "hinge_7 (1) (1)",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 121.500001,
+        "y": -6.0,
+        "z": -2.0
+      },
+      "bbox_max_mm": {
+        "x": 127.500002,
+        "y": -2.0,
+        "z": 22.0
+      },
+      "bbox_size_mm": {
+        "x": 6.000001,
+        "y": 4.0,
+        "z": 24.0
+      },
+      "volume_mm3": 267.49925,
+      "face_count": 25,
+      "edge_count": 66,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 1.4,
+          "bbox_min_mm": {
+            "x": 126.500002,
+            "y": -4.8,
+            "z": -0.5
+          },
+          "bbox_max_mm": {
+            "x": 127.500002,
+            "y": -3.4,
+            "z": -0.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 129.500002,
+            "y": -4.8,
+            "z": -0.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 20.999997,
+          "bbox_min_mm": {
+            "x": 126.500002,
+            "y": -3.4,
+            "z": -0.5
+          },
+          "bbox_max_mm": {
+            "x": 127.500002,
+            "y": -3.4,
+            "z": 20.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 129.500002,
+            "y": -3.4,
+            "z": -0.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 1.4,
+          "bbox_min_mm": {
+            "x": 126.500002,
+            "y": -4.8,
+            "z": 20.5
+          },
+          "bbox_max_mm": {
+            "x": 127.500002,
+            "y": -3.4,
+            "z": 20.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 129.500002,
+            "y": -3.4,
+            "z": 20.5
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 2.0,
+          "bbox_min_mm": {
+            "x": 126.500002,
+            "y": -4.8,
+            "z": 18.5
+          },
+          "bbox_max_mm": {
+            "x": 127.500002,
+            "y": -4.8,
+            "z": 20.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 129.500002,
+            "y": -4.8,
+            "z": 20.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": -0.0
+          }
+        },
+        {
+          "index": 4,
+          "area_mm2": 1.2,
+          "bbox_min_mm": {
+            "x": 126.500002,
+            "y": -6.0,
+            "z": 18.5
+          },
+          "bbox_max_mm": {
+            "x": 127.500002,
+            "y": -4.8,
+            "z": 18.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 129.500002,
+            "y": -4.8,
+            "z": 18.5
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": -0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 5,
+          "area_mm2": 2.0,
+          "bbox_min_mm": {
+            "x": 126.500002,
+            "y": -4.8,
+            "z": -0.5
+          },
+          "bbox_max_mm": {
+            "x": 127.500002,
+            "y": -4.8,
+            "z": 1.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 129.500002,
+            "y": -4.8,
+            "z": 1.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": -0.0
+          }
+        },
+        {
+          "index": 6,
+          "area_mm2": 1.2,
+          "bbox_min_mm": {
+            "x": 126.500002,
+            "y": -6.0,
+            "z": 1.5
+          },
+          "bbox_max_mm": {
+            "x": 127.500002,
+            "y": -4.8,
+            "z": 1.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 129.500002,
+            "y": -6.0,
+            "z": 1.5
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 7,
+          "area_mm2": 46.2,
+          "bbox_min_mm": {
+            "x": 126.500002,
+            "y": -6.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 126.500002,
+            "y": -2.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 126.500002,
+            "y": -6.0,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 8,
+          "area_mm2": 49.8,
+          "bbox_min_mm": {
+            "x": 127.500002,
+            "y": -6.0,
+            "z": -0.5
+          },
+          "bbox_max_mm": {
+            "x": 127.500002,
+            "y": -3.4,
+            "z": 20.5
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 127.500002,
+            "y": -6.0,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 9,
+          "area_mm2": 45.000037,
+          "bbox_min_mm": {
+            "x": 123.500001,
+            "y": -2.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 126.500002,
+            "y": -2.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 131.500001,
+            "y": -2.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 10,
+          "area_mm2": 15.141596,
+          "bbox_min_mm": {
+            "x": 121.500001,
+            "y": -6.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 126.500002,
+            "y": -2.0,
+            "z": -2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 115.500001,
+            "y": -4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 11,
+          "area_mm2": 24.0,
+          "bbox_min_mm": {
+            "x": 125.75,
+            "y": -6.0,
+            "z": 2.0
+          },
+          "bbox_max_mm": {
+            "x": 125.75,
+            "y": -2.0,
+            "z": 8.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.75,
+            "y": -2.0,
+            "z": 2.0
+          },
+          "plane_normal": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 12,
+          "area_mm2": 24.0,
+          "bbox_min_mm": {
+            "x": 125.75,
+            "y": -6.0,
+            "z": 12.0
+          },
+          "bbox_max_mm": {
+            "x": 125.75,
+            "y": -2.0,
+            "z": 18.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.75,
+            "y": -2.0,
+            "z": 12.0
+          },
+          "plane_normal": {
+            "x": 1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 13,
+          "area_mm2": 62.000035,
+          "bbox_min_mm": {
+            "x": 123.500001,
+            "y": -6.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 127.500002,
+            "y": -6.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 123.500001,
+            "y": -6.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": -0.0
+          }
+        },
+        {
+          "index": 14,
+          "area_mm2": 15.141596,
+          "bbox_min_mm": {
+            "x": 121.500001,
+            "y": -6.0,
+            "z": 22.0
+          },
+          "bbox_max_mm": {
+            "x": 126.500002,
+            "y": -2.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 126.500001,
+            "y": -4.0,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 15,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 122.500001,
+            "y": -5.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 124.500001,
+            "y": -3.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 16,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 122.500001,
+            "y": -5.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 124.500001,
+            "y": -3.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 17,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 122.500001,
+            "y": -5.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 124.500001,
+            "y": -3.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 18,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 121.500001,
+            "y": -6.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 123.500001,
+            "y": -2.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 19,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 121.500001,
+            "y": -6.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 123.500001,
+            "y": -2.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 20,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 121.500001,
+            "y": -6.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 123.500001,
+            "y": -2.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 21,
+          "area_mm2": 12.141589,
+          "bbox_min_mm": {
+            "x": 121.500001,
+            "y": -6.0,
+            "z": 12.000001
+          },
+          "bbox_max_mm": {
+            "x": 125.75,
+            "y": -2.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.5,
+            "y": -6.0,
+            "z": 12.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 22,
+          "area_mm2": 12.141589,
+          "bbox_min_mm": {
+            "x": 121.500001,
+            "y": -6.0,
+            "z": 18.0
+          },
+          "bbox_max_mm": {
+            "x": 125.75,
+            "y": -2.0,
+            "z": 18.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 116.5,
+            "y": -6.0,
+            "z": 18.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 23,
+          "area_mm2": 12.141588,
+          "bbox_min_mm": {
+            "x": 121.500001,
+            "y": -6.0,
+            "z": 2.0
+          },
+          "bbox_max_mm": {
+            "x": 125.75,
+            "y": -2.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.5,
+            "y": -6.0,
+            "z": 2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 24,
+          "area_mm2": 12.141588,
+          "bbox_min_mm": {
+            "x": 121.500001,
+            "y": -6.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 125.75,
+            "y": -2.0,
+            "z": 8.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 116.5,
+            "y": -6.0,
+            "z": 8.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 16,
+      "name": "hinge_6 (1) (1)",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 116.5,
+        "y": -6.0,
+        "z": 12.500001
+      },
+      "bbox_max_mm": {
+        "x": 125.5,
+        "y": -2.0,
+        "z": 17.500001
+      },
+      "bbox_size_mm": {
+        "x": 9.0,
+        "y": 4.0,
+        "z": 5.0
+      },
+      "volume_mm3": 131.415934,
+      "face_count": 8,
+      "edge_count": 16,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 116.5,
+            "y": -6.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 125.5,
+            "y": -2.0,
+            "z": 12.500001
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 125.0,
+            "y": -6.0,
+            "z": 12.500001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 26.283184,
+          "bbox_min_mm": {
+            "x": 116.5,
+            "y": -6.0,
+            "z": 17.500001
+          },
+          "bbox_max_mm": {
+            "x": 125.5,
+            "y": -2.0,
+            "z": 17.500001
+          },
+          "loop_count": 3,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 117.0,
+            "y": -6.0,
+            "z": 17.500001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 25.000002,
+          "bbox_min_mm": {
+            "x": 118.5,
+            "y": -6.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 123.5,
+            "y": -6.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 121.0,
+            "y": -6.0,
+            "z": 15.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 31.41593,
+          "bbox_min_mm": {
+            "x": 117.5,
+            "y": -5.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 119.5,
+            "y": -3.0,
+            "z": 17.500001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 4,
+          "area_mm2": 31.41593,
+          "bbox_min_mm": {
+            "x": 122.5,
+            "y": -5.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 124.5,
+            "y": -3.0,
+            "z": 17.500001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 5,
+          "area_mm2": 31.415929,
+          "bbox_min_mm": {
+            "x": 116.5,
+            "y": -6.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 118.5,
+            "y": -2.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 6,
+          "area_mm2": 31.415929,
+          "bbox_min_mm": {
+            "x": 123.5,
+            "y": -6.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 125.5,
+            "y": -2.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 7,
+          "area_mm2": 25.000002,
+          "bbox_min_mm": {
+            "x": 118.5,
+            "y": -2.0,
+            "z": 12.500001
+          },
+          "bbox_max_mm": {
+            "x": 123.5,
+            "y": -2.0,
+            "z": 17.500001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 126.0,
+            "y": -2.0,
+            "z": 36.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": -1.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 17,
+      "name": "TMP117 (1)",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 82.500001,
+        "y": 0.0,
+        "z": -2.0
+      },
+      "bbox_max_mm": {
+        "x": 116.499997,
+        "y": 5.0,
+        "z": 22.0
+      },
+      "bbox_size_mm": {
+        "x": 33.999996,
+        "y": 5.0,
+        "z": 24.0
+      },
+      "volume_mm3": 2490.498774,
+      "face_count": 27,
+      "edge_count": 72,
+      "faces": [
+        {
+          "index": 0,
+          "area_mm2": 11.141594,
+          "bbox_min_mm": {
+            "x": 82.500001,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 86.500001,
+            "y": 4.0,
+            "z": 18.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 77.5,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 1,
+          "area_mm2": 8.000004,
+          "bbox_min_mm": {
+            "x": 84.500001,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 86.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 92.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 2,
+          "area_mm2": 8.000001,
+          "bbox_min_mm": {
+            "x": 84.500001,
+            "y": 4.0,
+            "z": 18.0
+          },
+          "bbox_max_mm": {
+            "x": 86.500001,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 92.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 3,
+          "area_mm2": 11.141594,
+          "bbox_min_mm": {
+            "x": 82.500001,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 86.500001,
+            "y": 4.0,
+            "z": 8.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 77.5,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 4,
+          "area_mm2": 8.000002,
+          "bbox_min_mm": {
+            "x": 84.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 86.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 92.500001,
+            "y": 4.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 5,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 83.500001,
+            "y": 1.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 85.500001,
+            "y": 3.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 6,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 83.500001,
+            "y": 1.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 85.500001,
+            "y": 3.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 7,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 83.500001,
+            "y": 1.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 85.500001,
+            "y": 3.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 8,
+          "area_mm2": 25.132748,
+          "bbox_min_mm": {
+            "x": 82.500001,
+            "y": 0.0,
+            "z": 8.0
+          },
+          "bbox_max_mm": {
+            "x": 84.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 9,
+          "area_mm2": 25.132742,
+          "bbox_min_mm": {
+            "x": 82.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 84.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 10,
+          "area_mm2": 25.132734,
+          "bbox_min_mm": {
+            "x": 82.500001,
+            "y": 0.0,
+            "z": 18.000001
+          },
+          "bbox_max_mm": {
+            "x": 84.500001,
+            "y": 4.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Cylinder"
+        },
+        {
+          "index": 11,
+          "area_mm2": 11.141594,
+          "bbox_min_mm": {
+            "x": 82.500001,
+            "y": -0.0,
+            "z": 12.000001
+          },
+          "bbox_max_mm": {
+            "x": 86.500001,
+            "y": 4.0,
+            "z": 12.000001
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 86.5,
+            "y": 0.0,
+            "z": 12.000001
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 12,
+          "area_mm2": 11.141594,
+          "bbox_min_mm": {
+            "x": 82.500001,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "bbox_max_mm": {
+            "x": 86.500001,
+            "y": 4.0,
+            "z": 2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 86.5,
+            "y": 0.0,
+            "z": 2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 13,
+          "area_mm2": 161.141574,
+          "bbox_min_mm": {
+            "x": 82.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 116.499997,
+            "y": 5.0,
+            "z": -2.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 116.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 14,
+          "area_mm2": 71.999997,
+          "bbox_min_mm": {
+            "x": 86.500001,
+            "y": -0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 86.500001,
+            "y": 5.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 86.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "plane_normal": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 15,
+          "area_mm2": 44.400001,
+          "bbox_min_mm": {
+            "x": 88.500002,
+            "y": 0.0,
+            "z": 1.0
+          },
+          "bbox_max_mm": {
+            "x": 88.500002,
+            "y": 3.0,
+            "z": 19.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 88.500002,
+            "y": 0.0,
+            "z": 1.0
+          },
+          "plane_normal": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 16,
+          "area_mm2": 503.999933,
+          "bbox_min_mm": {
+            "x": 88.500002,
+            "y": 3.0,
+            "z": 1.0
+          },
+          "bbox_max_mm": {
+            "x": 116.499997,
+            "y": 3.0,
+            "z": 19.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 101.500002,
+            "y": 3.0,
+            "z": 10.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 17,
+          "area_mm2": 50.399993,
+          "bbox_min_mm": {
+            "x": 88.500002,
+            "y": 1.2,
+            "z": 1.0
+          },
+          "bbox_max_mm": {
+            "x": 116.499997,
+            "y": 3.0,
+            "z": 1.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 114.500002,
+            "y": 0.0,
+            "z": 1.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 18,
+          "area_mm2": 50.399993,
+          "bbox_min_mm": {
+            "x": 88.499997,
+            "y": 1.2,
+            "z": 19.0
+          },
+          "bbox_max_mm": {
+            "x": 116.499997,
+            "y": 3.0,
+            "z": 19.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 88.500002,
+            "y": 0.0,
+            "z": 19.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 19,
+          "area_mm2": 111.999984,
+          "bbox_min_mm": {
+            "x": 88.499997,
+            "y": 1.2,
+            "z": 1.0
+          },
+          "bbox_max_mm": {
+            "x": 116.499997,
+            "y": 1.2,
+            "z": 5.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 114.499997,
+            "y": 1.2,
+            "z": 5.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 20,
+          "area_mm2": 111.999984,
+          "bbox_min_mm": {
+            "x": 88.500002,
+            "y": 1.2,
+            "z": 15.0
+          },
+          "bbox_max_mm": {
+            "x": 116.499997,
+            "y": 1.2,
+            "z": 19.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 114.499997,
+            "y": 1.2,
+            "z": 19.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 21,
+          "area_mm2": 33.599995,
+          "bbox_min_mm": {
+            "x": 88.500002,
+            "y": 0.0,
+            "z": 5.0
+          },
+          "bbox_max_mm": {
+            "x": 116.499997,
+            "y": 1.2,
+            "z": 5.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 114.499997,
+            "y": 0.0,
+            "z": 5.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 22,
+          "area_mm2": 33.599995,
+          "bbox_min_mm": {
+            "x": 88.499997,
+            "y": 0.0,
+            "z": 15.0
+          },
+          "bbox_max_mm": {
+            "x": 116.499997,
+            "y": 1.2,
+            "z": 15.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 114.499997,
+            "y": 1.2,
+            "z": 15.0
+          },
+          "plane_normal": {
+            "x": -0.0,
+            "y": 0.0,
+            "z": -1.0
+          }
+        },
+        {
+          "index": 23,
+          "area_mm2": 463.999898,
+          "bbox_min_mm": {
+            "x": 84.500001,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 116.499997,
+            "y": 0.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 101.500001,
+            "y": 0.0,
+            "z": 10.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 24,
+          "area_mm2": 161.141574,
+          "bbox_min_mm": {
+            "x": 82.500001,
+            "y": 0.0,
+            "z": 22.0
+          },
+          "bbox_max_mm": {
+            "x": 116.499997,
+            "y": 5.0,
+            "z": 22.0
+          },
+          "loop_count": 2,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 86.500001,
+            "y": 0.0,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 1.0
+          }
+        },
+        {
+          "index": 25,
+          "area_mm2": 719.999902,
+          "bbox_min_mm": {
+            "x": 86.500001,
+            "y": 5.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 116.499997,
+            "y": 5.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 101.500001,
+            "y": 5.0,
+            "z": 10.0
+          },
+          "plane_normal": {
+            "x": 0.0,
+            "y": 1.0,
+            "z": 0.0
+          }
+        },
+        {
+          "index": 26,
+          "area_mm2": 75.599997,
+          "bbox_min_mm": {
+            "x": 116.499997,
+            "y": 0.0,
+            "z": -2.0
+          },
+          "bbox_max_mm": {
+            "x": 116.499997,
+            "y": 5.0,
+            "z": 22.0
+          },
+          "loop_count": 1,
+          "geometry_type": "adsk::core::Plane",
+          "plane_origin_mm": {
+            "x": 116.499997,
+            "y": 0.0,
+            "z": 22.0
+          },
+          "plane_normal": {
+            "x": -1.0,
+            "y": 0.0,
+            "z": 0.0
+          }
+        }
+      ]
+    },
+    {
+      "index": 18,
+      "name": "MAX30102 (1)",
+      "visible": true,
+      "bbox_min_mm": {
+        "x": 5.0,
+        "y": 5.0,
+        "z": 5.0
+      },
+      "bbox_max_mm": {
+        "x": 5.0,
+        "y": 5.0,
+        "z": 5.0
+      },
+      "bbox_size_mm": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "volume_mm3": 0.0,
+      "face_count": 0,
+      "edge_count": 0,
+      "faces": []
+    }
+  ],
+  "user_parameters": [],
+  "model_parameters": [
+    {
+      "name": "d1",
+      "expression": "22 mm",
+      "value": 2.2,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d2",
+      "expression": "20 mm",
+      "value": 2.0,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d5",
+      "expression": "2 mm",
+      "value": 0.2,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d6",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d7",
+      "expression": "4 mm",
+      "value": 0.4,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d8",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d9",
+      "expression": "-0.2 mm",
+      "value": -0.020000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d10",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d11",
+      "expression": "-0.2 mm",
+      "value": -0.020000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d12",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d13",
+      "expression": "-0.2 mm",
+      "value": -0.020000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d14",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d15",
+      "expression": "-0.2 mm",
+      "value": -0.020000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d16",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d17",
+      "expression": "27 mm",
+      "value": 2.7,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d18",
+      "expression": "23 mm",
+      "value": 2.3000000000000003,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d23",
+      "expression": "32 mm",
+      "value": 3.2,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d24",
+      "expression": "24 mm",
+      "value": 2.4000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d25",
+      "expression": "14 mm",
+      "value": 1.4000000000000001,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d26",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d27",
+      "expression": "28 mm",
+      "value": 2.8000000000000003,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d28",
+      "expression": "20 mm",
+      "value": 2.0,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d29",
+      "expression": "-12 mm",
+      "value": -1.2000000000000002,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d30",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d31",
+      "expression": "2 mm",
+      "value": 0.2,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d32",
+      "expression": "2 mm",
+      "value": 0.2,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d33",
+      "expression": "5 mm",
+      "value": 0.5,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d34",
+      "expression": "4 mm",
+      "value": 0.4,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d35",
+      "expression": "-9.50 mm",
+      "value": -0.9500000000000001,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d36",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d37",
+      "expression": "7 mm",
+      "value": 0.7000000000000001,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d38",
+      "expression": "4 mm",
+      "value": 0.4,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d39",
+      "expression": "7 mm",
+      "value": 0.7000000000000001,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d40",
+      "expression": "10 mm",
+      "value": 1.0,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d41",
+      "expression": "-3.00 mm",
+      "value": -0.30000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d42",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d43",
+      "expression": "8 mm",
+      "value": 0.8,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d44",
+      "expression": "4 mm",
+      "value": 0.4,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d45",
+      "expression": "24 mm",
+      "value": 2.4000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d46",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d47",
+      "expression": "2 mm",
+      "value": 0.2,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d48",
+      "expression": "-25 mm",
+      "value": -2.5,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d49",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d50",
+      "expression": "1 mm",
+      "value": 0.1,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d51",
+      "expression": "9 mm",
+      "value": 0.9,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d52",
+      "expression": "-11 mm",
+      "value": -1.1,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d53",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d54",
+      "expression": "4 mm",
+      "value": 0.4,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d55",
+      "expression": "4 mm",
+      "value": 0.4,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d56",
+      "expression": "24 mm",
+      "value": 2.4000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d57",
+      "expression": "4 mm",
+      "value": 0.4,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d58",
+      "expression": "0.5 mm",
+      "value": 0.05,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d59",
+      "expression": "4 mm",
+      "value": 0.4,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d60",
+      "expression": "9 mm",
+      "value": 0.9,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d61",
+      "expression": "5 mm",
+      "value": 0.5,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d62",
+      "expression": "9 mm",
+      "value": 0.9,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d63",
+      "expression": "5 mm",
+      "value": 0.5,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d64",
+      "expression": "0.5 mm",
+      "value": 0.05,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d65",
+      "expression": "0.5 mm",
+      "value": 0.05,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d66",
+      "expression": "6.50 mm",
+      "value": 0.65,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d67",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d68",
+      "expression": "0.5 mm",
+      "value": 0.05,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d69",
+      "expression": "0.5 mm",
+      "value": 0.05,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d70",
+      "expression": "0.5 mm",
+      "value": 0.05,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d71",
+      "expression": "0.5 mm",
+      "value": 0.05,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d72",
+      "expression": "-4.00 mm",
+      "value": -0.4,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d73",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d74",
+      "expression": "2 mm",
+      "value": 0.2,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d75",
+      "expression": "2 mm",
+      "value": 0.2,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d76",
+      "expression": "0.50 mm",
+      "value": 0.05,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d77",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d78",
+      "expression": "0.5 mm",
+      "value": 0.05,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d79",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d80",
+      "expression": "-24.50 mm",
+      "value": -2.45,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d81",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d82",
+      "expression": "-38.00 mm",
+      "value": -3.8000000000000003,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d83",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d84",
+      "expression": "-44.00 mm",
+      "value": -4.4,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d85",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d86",
+      "expression": "0.25 mm",
+      "value": 0.025,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d87",
+      "expression": "0.25 mm",
+      "value": 0.025,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d88",
+      "expression": "6 mm",
+      "value": 0.6000000000000001,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d89",
+      "expression": "0.25 mm",
+      "value": 0.025,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d90",
+      "expression": "6 mm",
+      "value": 0.6000000000000001,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d91",
+      "expression": "0.25 mm",
+      "value": 0.025,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d92",
+      "expression": "-24 mm",
+      "value": -2.4000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d93",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d94",
+      "expression": "34 mm",
+      "value": 3.4000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d95",
+      "expression": "24 mm",
+      "value": 2.4000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d96",
+      "expression": "7 mm",
+      "value": 0.7000000000000001,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d97",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d98",
+      "expression": "-5 mm",
+      "value": -0.5,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d99",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d100",
+      "expression": "30 mm",
+      "value": 3.0,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d101",
+      "expression": "24 mm",
+      "value": 2.4000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d102",
+      "expression": "5 mm",
+      "value": 0.5,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d103",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d104",
+      "expression": "26 mm",
+      "value": 2.6,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d105",
+      "expression": "-3 mm",
+      "value": -0.30000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d106",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d107",
+      "expression": "2 mm",
+      "value": 0.2,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d108",
+      "expression": "5 mm",
+      "value": 0.5,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d109",
+      "expression": "-24 mm",
+      "value": -2.4000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d110",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d111",
+      "expression": "1 mm",
+      "value": 0.1,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d112",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d113",
+      "expression": "1.8 mm",
+      "value": 0.18000000000000002,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d114",
+      "expression": "4 mm",
+      "value": 0.4,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d115",
+      "expression": "1.2 mm",
+      "value": 0.12,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d116",
+      "expression": "4 mm",
+      "value": 0.4,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d117",
+      "expression": "1.2 mm",
+      "value": 0.12,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d118",
+      "expression": "-26.00 mm",
+      "value": -2.6,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d119",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d120",
+      "expression": "-32.00 mm",
+      "value": -3.2,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d121",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d122",
+      "expression": "2 mm",
+      "value": 0.2,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d123",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d124",
+      "expression": "20 mm",
+      "value": 2.0,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d125",
+      "expression": "24 mm",
+      "value": 2.4000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d126",
+      "expression": "4.6 mm",
+      "value": 0.45999999999999996,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d127",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d128",
+      "expression": "24 mm",
+      "value": 2.4000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d129",
+      "expression": "2 mm",
+      "value": 0.2,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d130",
+      "expression": "24 mm",
+      "value": 2.4000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d131",
+      "expression": "1.2 mm",
+      "value": 0.12,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d132",
+      "expression": "3.5 mm",
+      "value": 0.35000000000000003,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d133",
+      "expression": "1.5 mm",
+      "value": 0.15000000000000002,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d134",
+      "expression": "1.4 mm",
+      "value": 0.13999999999999999,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d135",
+      "expression": "1.5 mm",
+      "value": 0.15000000000000002,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d136",
+      "expression": "3.5 mm",
+      "value": 0.35000000000000003,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d137",
+      "expression": "-18 mm",
+      "value": -1.8,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d138",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d139",
+      "expression": "5.5 mm",
+      "value": 0.55,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d140",
+      "expression": "4 mm",
+      "value": 0.4,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d141",
+      "expression": "5.5 mm",
+      "value": 0.55,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d142",
+      "expression": "4 mm",
+      "value": 0.4,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d143",
+      "expression": "5.5 mm",
+      "value": 0.55,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d144",
+      "expression": "-24 mm",
+      "value": -2.4000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d145",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d146",
+      "expression": "1.5 mm",
+      "value": 0.15000000000000002,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d147",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d148",
+      "expression": "1.5 mm",
+      "value": 0.15000000000000002,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d149",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d150",
+      "expression": "2 mm",
+      "value": 0.2,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d151",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d152",
+      "expression": "-24 mm",
+      "value": -2.4000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d153",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d154",
+      "expression": "2 mm",
+      "value": 0.2,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d155",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d156",
+      "expression": "2 mm",
+      "value": 0.2,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d157",
+      "expression": "-24 mm",
+      "value": -2.4000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d158",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d159",
+      "expression": "-3 mm",
+      "value": -0.30000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d160",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    },
+    {
+      "name": "d161",
+      "expression": "-3 mm",
+      "value": -0.30000000000000004,
+      "unit": "mm",
+      "comment": ""
+    },
+    {
+      "name": "d162",
+      "expression": "0.0 deg",
+      "value": 0.0,
+      "unit": "deg",
+      "comment": ""
+    }
+  ]
+}

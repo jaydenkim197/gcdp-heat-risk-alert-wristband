@@ -1,0 +1,34 @@
+# PlatformIO and editor output
+.pio/
+build/
+.vscode/
+*.bin
+*.elf
+*.map
+
+# CAD application history and temporary files
+History/
+*.autosave
+*.bak
+*.tmp
+~$*
+
+# Local tooling and generated caches
+tmp/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Personal and administrative material
+*proposal*.docx
+*proposal*.pdf
+*품의서*
+*견적서*
+*장바구니*
+*account*
+*credentials*
+
+# OS files
+Thumbs.db
+.DS_Store
