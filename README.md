@@ -53,6 +53,12 @@ share ground.
 - `hardware/enclosure/`: Fusion export, STEP/STL files, generators, and fit notes
 - `docs/`: dated bring-up, integration, power, and module-selection records
 - `media/cad/`: selected enclosure renders for quick review
+- `evidence/`: dated hardware, 3D-printing, demo, screenshot, and 3D-scan records
+
+For a chronological review of the engineering work, start with
+[`evidence/README.md`](evidence/README.md), then read the dated logs in
+[`docs/`](docs/). The repository intentionally excludes personal information,
+administrative records, raw purchase documents, and generated build caches.
 
 The redacted first-purchase request and supporting quotations are available at
 [`docs/260812_GCDP_team5_procurement_request_public.pdf`](docs/260812_GCDP_team5_procurement_request_public.pdf).
